@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header_design {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: baseline;
+
+}
+
+header section nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.name {
+    color: blueviolet;
+    font-size: x-large;
+}
+
+.kontakt_button_style {
+    background-color: blueviolet;
+    color: white;
+    border: thin solid blue;
+    border-radius: 10px;
+    padding:0vh 3vw;
+}
+
+.kontakt_button_style:hover {
+    background-color: crimson;
+    color: white;
+}
+
+.nav_leiste {
+    display: flex;
+    justify-content: space-between;
+    width: 30vw;
+}
+
+.name_1 {
+    font-size: xx-large;
+}
+
+.header_design_2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 90vw;
+    padding-top: 20vh;
+}
+
+.img_design {
+    border:  20px solid blueviolet;
+    border-top: 20px;
+    border-left: 20px;
+    border-top-style: groove;
+    border-left-style: groove;
+    
+}
+
+.download_button_style {
+    display: flex;
+    text-decoration: none;
+    background-color: blueviolet;
+    color: white;
+    border: thin solid blue;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    padding: 0vh 3vw;
+
+}
+
+.download_button_style:hover {
+    background-color: gold;
+    color: blueviolet;
+}
+
+h2{
+    padding-bottom: 5px;
+    font-style: italic;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+main {
+    padding-left: 50px;
+    padding-top: 50px;
+}
